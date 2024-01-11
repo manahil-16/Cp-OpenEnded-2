@@ -17,7 +17,7 @@ void inputDetails(Book books[], int size) {
         getline(cin, books[i].author);
         cout << "Enter publication Year of the book: ";
         cin >> books[i].publicationYear;
-        cin.ignore(), '\n';
+        cin.ignore();
         cout << "Enter the genre of the book: ";
         getline(cin, books[i].genre);
         cout << endl;
